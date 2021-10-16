@@ -80,7 +80,7 @@ app.use('/', homeRouter);
 app.use('/exercise/', exerciseRouter);
 
 app.get('/', function (req, res) {
-    res.render('register', {});
+    res.render('login', {});
   });
 
 
