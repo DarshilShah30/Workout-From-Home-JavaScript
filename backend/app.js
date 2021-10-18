@@ -39,8 +39,7 @@ const dbURI = process.env.dbURI;
     useNewUrlParser: true
 };
 
-mongoose.connect(process.env.MONGO_DB_STRING,
-    mongo_options);
+mongoose.connect('mongodb://localhost:27017/WFH');
 /**
  * Create Express server 
  * @type {Server}
